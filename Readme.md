@@ -53,7 +53,7 @@
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HEXOROP/eSportMusicX)
-
+- [![Deploy+To+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://https://github.com/UNREALBOT12/Raw_Music_2.0&envs=SESSION_NAME,BOT_TOKEN,BOT_NAME,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT)
 ## ᴅᴇᴘʟᴏʏ ᴏɴ ᴠᴘꜱ ꜱᴇʀᴠᴇʀ 📡
 
 ```sh
