@@ -1,12 +1,13 @@
 {
-  "name": "eSportMusicX",
+  "name": "DeCodeMusic",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
+  "logo": "https://telegra.ph/file/21e8e309addc276362496.jpg",
   "repository": "https://github.com/UNREALBOT12/Raw_Music_2.0",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
-      "description": "Pyrogram session string",
+      "description": "Pyrogram session string get it from https://replit.com/@MissLilly/TeamDeeCode?v=1",
       "required": true
     },
     "BOT_TOKEN": {
@@ -22,6 +23,14 @@
       "description": "App ID from my.telegram.org/apps",
       "required": true
     },
+    "HEROKU_API_KEY": {
+      "description": "your heroku api key get it from https://dashboard.heroku.com/account",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Your heroku appname",
+      "required": true
+    },
     "API_HASH": {
       "description": "App hash from my.telegram.org/apps",
       "required": true
@@ -33,7 +42,19 @@
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
       "required": true,
-      "value": "10"
-    }
+      "value": "70"
+    },
+    "BOT_USERNAME": {
+      "description": "USERNAME BOT",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Owner userid",
+      "required": true
+    },
+    "ASSISTANT_USERNAME": {
+      "description": "USERNAME ASSISTANT",
+      "required": true
+    }     
   }
 }
