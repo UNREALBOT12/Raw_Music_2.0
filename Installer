@@ -5,8 +5,7 @@ pyrogram
 TgCrypto
 py-tgcalls==0.5.5
 python-dotenv
-yt_dlp
-youtube_dl
+git+https://github.com/kaalmous/downloader@kaal
 youtube_search_python==1.4.6
 requests
 aiohttp
